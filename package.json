@@ -1,0 +1,15 @@
+{
+  "name": "pallet",
+  "version": "0.0.1",
+  "description": "Color parsing at the finest.",
+  "main": "./build/index.js",
+  "author": "Wayv",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "ts": "tsc -w"
+  }
+}
