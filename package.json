@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Color parsing at the finest.",
   "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "author": "Wayv",
   "license": "Apache-2.0",
   "private": false,
@@ -10,6 +11,7 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "ts": "tsc -w"
+    "ts": "tsc -w",
+    "out": "tsc --declaration index.ts --outDir ./build"
   }
 }
